@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>#wpbn No. 46 – WordPress und das Open Web (IndieWeb)</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/serif.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section
+					data-background-image="img/FediverseDiagram.png"
+					data-background-color="#fff"
+					class="full-width"
+				>
+				</section>
+
+				<section
+					data-background-image="img/FediverseDiagram-blur.png"
+					data-background-color="#fff"
+					data-text-color="red"
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					class="full-width"
+				>
+					<h1><strong>WordPress</strong>, the <strong>IndieWeb</strong> and the <strong>Fediverse</strong></h1>
+					(and Friends)
+				</section>
+
+				<section
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+				>
+					<h2>https://notiz.blog/about/</h2>
+				</section>
+
+				<section
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+				>
+					<h2>https://notiz.blog/now/</h2>
+					<small>(https://nownownow.com/)</small>
+				</section>
+
+				<section
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+				>
+					<h2>https://notiz.blog/follow/</h2>
+					<small>https://marcus.io/blog/making-rss-more-visible-again-with-slash-feeds)</small>
+				</section>
+
+				<section
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+				>
+					<h2>https://notiz.blog/contact/</h2>
+				</section>
+
+
+
+				<section
+					data-markdown="slides/questions.md"
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+				>
+				</section>
+
+				<section
+					data-background-image="img/2017-hwc-80s-retro.jpg"
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+				>
+				</section>
+				<section
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+				>
+					<h2>Homebrew Website Club Karlsruhe</h2>
+					<ul>
+						<li>https://indieweb.org/Homebrew_Website_Club#.F0.9F.94.BA_Karlsruhe</li>
+						<li>https://github.com/hwc-ka/</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				controls: false,
+				slideNumber: 'c/t',
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

@@ -10,4 +10,4 @@ https://wpbn.de/wpbn-no-46-wordpress-und-das-open-web-indieweb/
 >
 > Und danach ist wie üblich wieder eine offene Diskussions-/Austauschrunde für alle WordPress-Themen.
 >
-> Eine Bitte an alle: Bitte teilt uns über unseren Seite auf Meetup.com mit, ob ihr teilnehmt, damit wir entsprechend planen können.
+> Eine Bitte an alle: Bitte teilt uns über unseren Seite auf [Meetup.com](https://www.meetup.com/de-DE/WordPress-Meetup-Bonn-wpbn/) mit, ob ihr teilnehmt, damit wir entsprechend planen können.
